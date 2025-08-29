@@ -3,6 +3,7 @@ import java.io.*;
 import java.nio.file.*;
 import java.nio.charset.StandardCharsets;
 
+
 public class MyFileWriter {
     public static void main(String[] args) {
         String data = "Hello, World!";
@@ -20,7 +21,7 @@ public class MyFileWriter {
         }
 
         // 2. Using BufferedWriter
-        try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(fileName2))) {
+        try (BufferedWritsadfghjkgfdgsfaer bufferedWriter = new BufferedWriter(new FileWriter(fileName2))) {
             bufferedWriter.write(data);
         } catch (IOException e) {
             e.printStackTrace();
